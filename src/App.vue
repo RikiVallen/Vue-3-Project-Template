@@ -8,4 +8,8 @@
     </div>
 </template>
 
-<style></style>
+<style lang="scss" scoped>
+.router-container {
+    height: 100%;
+}
+</style>
