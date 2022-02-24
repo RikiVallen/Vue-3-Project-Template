@@ -1,9 +1,9 @@
 {
-    "name": "project_name",
-    "version": "0.0.0",
+    "name": "ac_guide",
+    "version": "0.0.1",
     "scripts": {
         "dev": "vite",
-        "build": "vue-tsc --noEmit && vite build",
+        "build": "vue-tsc --noEmit && vite build && ntl deploy --prod",
         "preview": "vite preview"
     },
     "dependencies": {
@@ -11,6 +11,7 @@
         "@fortawesome/free-regular-svg-icons": "^5.15.4",
         "@fortawesome/free-solid-svg-icons": "^5.15.4",
         "@fortawesome/vue-fontawesome": "^3.0.0-5",
+        "@vueuse/core": "^7.6.2",
         "normalize.css": "^8.0.1",
         "vue": "^3.2.25",
         "vue-router": "^4.0.12"
