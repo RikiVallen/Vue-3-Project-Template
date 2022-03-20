@@ -7,4 +7,3 @@ declare module "*.vue" {
     export default component
 }
 
-declare module 'animejs/lib/anime.es.js'

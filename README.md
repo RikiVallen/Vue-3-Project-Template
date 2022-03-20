@@ -8,10 +8,8 @@ Some noteworthy inclusions:
 
 1. Vue Router + Base Configuration
 2. TypeScript Support
-3. Font Awesome
-4. Normalise.css
-5. VueLoader
-6. Anime JS
+3. Modern Normalize.css
+4. VueLoader
 
 ### Configuration
 
@@ -21,6 +19,8 @@ Some noteworthy inclusions:
 ### Running the project
 `npm run dev`
 
+### Deploying the project to Netlify
+`npm run deploy`
 ---
 
 Enjoy, future me! (Or anyone else who might find this useful)
