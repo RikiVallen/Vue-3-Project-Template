@@ -3,7 +3,8 @@
     "version": "0.0.1",
     "scripts": {
         "dev": "vite",
-        "build": "vue-tsc --noEmit && vite build && ntl deploy --prod",
+        "build": "vue-tsc --noEmit && vite build",
+        "deploy": "vue-tsc --noEmit && vite build && ntl deploy --prod",
         "preview": "vite preview"
     },
     "dependencies": {
@@ -19,5 +20,8 @@
         "vue-axios": "^3.4.1",
         "vue-router": "^4.0.12",
         "vue-tsc": "^0.29.8"
+    },
+    "devDependencies": {
+        "netlify-cli": "^9.13.3"
     }
 }
